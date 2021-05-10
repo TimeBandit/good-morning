@@ -1,4 +1,5 @@
 // https://khalilstemmler.com/blogs/typescript/node-starter-project/
+// https://www.twilio.com/blog/working-with-environment-variables-in-node-js-html
 
 // Require the Node Slack SDK package (github.com/slackapi/node-slack-sdk)
 import { LogLevel, WebClient } from "@slack/web-api";
@@ -33,14 +34,14 @@ async function publishMessage(id: string, text: string) {
   }
 }
 
-const pickRandom = <T>(selection: T[]): T => {
+const pick = <T>(selection: T[]): T => {
   const index = Math.floor(Math.random() * selection.length);
   return selection[index];
 };
 
-const quote = pickRandom<Quote>(quotes);
-const emoji = pickRandom<string>(emojis);
-const salutation = pickRandom<string>(salutations);
+const quote = pick<Quote>(quotes);
+const emoji = pick<string>(emojis);
+const salutation = pick<string>(salutations);
 
 publishMessage(
   CHANNEL_ID,

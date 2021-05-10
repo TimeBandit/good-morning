@@ -1,3 +1,7 @@
+# custom
+.vscode/
+build/
+
 # Logs
 logs
 *.log
