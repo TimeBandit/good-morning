@@ -5,33 +5,10 @@ name: Node.js CI
 
 on:
   workflow_dispatch:
-    inputs:
-      channel:
-        description: 'Channel ID'
-        required: true
-        default: ${{ secrets.CHANNEL_ID_DEV }}
   push:
     branches: [main]
-    inputs:
-      channel:
-        description: 'Channel ID'
-        required: true
-        default: ${{ secrets.CHANNEL_ID_DEV }}
   pull_request:
     branches: [main]
-    inputs:
-      channel:
-        description: 'Channel ID'
-        required: true
-        default: ${{ secrets.CHANNEL_ID_DEV }}
-  schedule:
-    # * is a special character in YAML so you have to quote this string
-    - cron:  '4 6 * * 1-5'
-    inputs:
-      channel:
-        description: 'Channel ID'
-        required: true
-        default: ${{ secrets.CHANNEL_ID_PROD }}
 
 jobs:
   build:
@@ -41,11 +18,11 @@ jobs:
       - uses: actions/checkout@v2
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v2
-        
+
       - run: |
           touch .env
           echo USER_TOKEN=${{ secrets.USER_TOKEN }} >> .env
-          echo CHANNEL_ID=github.event.inputs.channel >> .env
+          echo CHANNEL_ID=${{ secrets.CHANNEL_ID_DEV }} >> .env
       - run: npm ci
       - run: npm run build --if-present
       - run: NODE_ENV=production node build/index.js
