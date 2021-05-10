@@ -36,4 +36,4 @@ jobs:
         echo CHANNEL_ID=${{ secrets.CHANNEL_ID_DEV }} >> .env
     - run: npm ci
     - run: npm run build --if-present
-    - run: node NODE_ENV=production build/index.js 
+    - run: NODE_ENV=production node build/index.js 
