@@ -8,7 +8,7 @@ import quotes, { Quote } from "./quotes";
 import salutations from "./salutations";
 
 if (process.env.NODE_ENV !== "production") {
-  console.info("Starting in production mode...");
+  console.info("Starting in local mode...");
   require("dotenv").config();
 }
 
