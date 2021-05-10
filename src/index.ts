@@ -6,10 +6,10 @@ import { LogLevel, WebClient } from "@slack/web-api";
 import emojis from "./emojis";
 import quotes, { Quote } from "./quotes";
 import salutations from "./salutations";
+require("dotenv").config();
 
 if (process.env.NODE_ENV !== "production") {
   console.info("Starting in local mode...");
-  require("dotenv").config();
 }
 
 const TOKEN = process.env.USER_TOKEN;
