@@ -7,11 +7,22 @@ import emojis from "./emojis";
 import quotes, { Quote } from "./quotes";
 import salutations from "./salutations";
 
-const USER_TOKEN = "";
-const CHANNEL_ID = "";
+if (process.env.NODE_ENV !== "production") {
+  console.info("Starting in production mode...");
+  require("dotenv").config();
+}
+
+const TOKEN = process.env.USER_TOKEN;
+
+if (!process.env.CHANNEL_ID) {
+  console.error("Channel id missing");
+  process.exit();
+}
+const CHANNEL = process.env.CHANNEL_ID || "";
+
 // WebClient insantiates a client that can call API methods
 // When using Bolt, you can use either `app.client` or the `client` passed to listeners.
-const client = new WebClient(USER_TOKEN, {
+const client = new WebClient(TOKEN, {
   // LogLevel can be imported and used to make debugging simpler
   logLevel: LogLevel.DEBUG,
 });
@@ -21,7 +32,7 @@ async function publishMessage(id: string, text: string) {
     // Call the chat.postMessage method using the built-in WebClient
     const result = await client.chat.postMessage({
       // The token you used to initialize your app
-      token: USER_TOKEN,
+      token: TOKEN,
       channel: id,
       text: text,
       // You could also use a blocks[] array to send richer content
@@ -44,6 +55,6 @@ const emoji = pick<string>(emojis);
 const salutation = pick<string>(salutations);
 
 publishMessage(
-  CHANNEL_ID,
+  CHANNEL,
   `${salutation} \n> ${quote.text} ${quote.author || ""} ${emoji}`
 );
