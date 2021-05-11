@@ -1,5 +1,6 @@
 const salutations: string[] = [
   "Good Morning!",
+  "Good mornin all",
   "Morning!",
   "Hello!",
   "G’day!",
