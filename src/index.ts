@@ -18,7 +18,8 @@ if (!process.env.CHANNEL_ID) {
   console.error("Channel id missing");
   process.exit();
 }
-const CHANNEL = process.env.CHANNEL_ID || "";
+
+const CHANNEL = process.env.CHANNEL_ID;
 
 // WebClient insantiates a client that can call API methods
 // When using Bolt, you can use either `app.client` or the `client` passed to listeners.
