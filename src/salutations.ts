@@ -1,11 +1,11 @@
 const salutations: string[] = [
   "Good Morning!",
-  "Good mornin all",
+  "Good morning all",
   "Morning!",
   "Hello!",
-  "G’day!",
+  "G’day",
   "Hey!",
-  "Good Morning Everyone!",
+  "Good morning everyone",
 ];
 
 export default salutations;
