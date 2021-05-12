@@ -6,7 +6,8 @@ const emojis: string[] = [
   ":blush:",
   ":strawberry:",
   ":heart:",
-  ":wave:"
+  ":wave:",
+  ":sun_with_face:"
 ];
 
 export default emojis;
