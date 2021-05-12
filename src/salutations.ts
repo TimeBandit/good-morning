@@ -6,6 +6,7 @@ const salutations: string[] = [
   "G’day",
   "Hey!",
   "Good morning everyone",
+  "Bom Dia :)",
 ];
 
 export default salutations;
