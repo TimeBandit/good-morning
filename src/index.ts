@@ -57,5 +57,5 @@ const salutation = pick<string>(salutations);
 
 publishMessage(
   CHANNEL,
-  `${salutation} \n> ${quote.text} ${quote.author || ""} ${emoji}`
+  `${salutation} \n> ${quote.text} ${quote.author || "Unknown"} ${emoji}`
 );
