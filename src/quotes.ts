@@ -5,6 +5,73 @@ export interface Quote {
 
 const quotes: Quote[] = [
   {
+    text:"I never dream of success. I worked for it.",
+    author:"Estee Lauder"
+  },
+  {
+    text:"Never apologize for having high standards. People who really want to be in your life will rise up to meet them.",
+    author:"Ziad K. Abdelnour"
+  },
+  {
+    text:"Instead of wondering when your next vacation is, maybe you should set up a life you don’t need to escape from.",
+    author:"Seth Godin"
+  },
+  {
+    text:"Never give up on a dream just because of the time it will take to accomplish it. The time will pass anyway.",
+    author:"Earl Nightingale"
+  },
+  {
+    text:"Do it with passion, or not at all.",
+    author:"Rosa Nouchette Carey"
+  },
+  {
+    text:"You must be the change you wish to see in the world.",
+    author:"Mahatma Gandhi"
+  },
+  {
+    text:"You will succeed because most people are lazy.",
+    author:"Shahir Zag"
+  },
+  {
+    text:"Champions keep playing until they get it right.",
+    author:"Billie Jean King"
+  },
+  {
+    text:"There is no way to happiness. Happiness is the way.",
+    author:"Thich Nhat Hanh"
+  },
+  {
+    text:"Don’t live the same year 75 times and call it a life.",
+    author:"Robin Sharma"
+  },
+  {
+    text:"I destroy my enemies when I make them my friends.",
+    author: null
+  },
+  {
+    text:"What you get by achieving your goals is not as important as what you become by achieving your goals.",
+    author:"Henry David Thoreau"
+  },
+  {
+    text:"Always keep your eyes open. Keep watching. Because whatever you see can inspire you.",
+    author:"Grace Coddington"
+  },
+  {
+    text:"Optimism is the one quality more associated with success and happiness than any other.",
+    author:"Brian Tracy"
+  },
+  {
+    text:"Creativity is intelligence having fun.",
+    author:"Albert Einstein"
+  },
+  {
+  text:"Don’t spend time beating on a wall, hoping to transform it into a door.",
+    author:"Coco Chanel"
+  },
+  {
+    text:"Anyone who has ever made anything of importance was disciplined.",
+    author:"Andrew Hendrixson"},
+  {
     text:
       "Genius is one percent inspiration and ninety-nine percent perspiration.",
     author: "Thomas Edison",
