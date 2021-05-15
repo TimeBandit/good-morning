@@ -46,7 +46,7 @@ const quotes: Quote[] = [
   },
   {
     text:"I destroy my enemies when I make them my friends.",
-    author: null
+    author: "Abraham Lincoln"
   },
   {
     text:"What you get by achieving your goals is not as important as what you become by achieving your goals.",
