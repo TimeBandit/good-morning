@@ -1,3 +1,5 @@
+![Node.js CI](https://github.com/TimeBandit/good-morning/workflows/Node.js%20CI/badge.svg)
+
 ![alt text](banner.png "Good Morning")
 
 <h4>A tool for importing your csv files into Homebank</h4>
