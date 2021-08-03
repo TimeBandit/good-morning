@@ -1,25 +1,32 @@
-![Node.js CI](https://github.com/TimeBandit/good-morning/workflows/Node.js%20CI/badge.svg)
+<h1 align="center">
+  <br>
+  🌞Good Morning
+</h1>
 
-![alt text](banner.png "Good Morning")
+<h4 align="center">Automatically post inspirational quotes to slack</h4>
 
-<h4>A tool for importing your csv files into Homebank</h4>
+<p align="center">
+  <a>
+    <img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/timebandit/good-morning">
+  </a>
+  <a href="https://github.com/TimeBandit/good-morning/workflows/Node.js%20CI/badge.svg">
+    <img src="https://github.com/TimeBandit/good-morning/workflows/Node.js%20CI/badge.svg">
+  </a>
+</p>
 
-<p>
+<p align="center">
+  <a href="#key-features">Key Features</a> •
   <a href="#installation">Installation</a> •
   <a href="#usage">Usage</a> •
   <a href="#contributing">Contributing</a> •
+  <a href="#license">License</a>
 </p>
 
-Homebank Apostle is tool to help you import files into Homebank. Export your internet banking transactions to CSV format and use this too convert make them readable by Homebank.
+## Key Features
+Post a random greeting and inspirational quote to slack each morning.
+## Installation
+## Usage
+## Contributing
+## License
 
-# Good Morning
-## Summary
-A slack bot to automate my daily greeting to the team.
-
-## Why?
-Each morning I greet everyone in the company via slack. 
-To save time and have some fun, I decided to automate this.
-
-## How?
-It uses the slack API to post a random salutation, quote and emoji.
-A scheduled pipeline runs the code each morning.
+[GPL v3](https://choosealicense.com/licenses/gpl-3.0)
