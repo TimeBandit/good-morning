@@ -1,9 +1,11 @@
 <h1 align="center">
   <br>
-  🌞Good Morning
+  🌞Good Morning - WIP
 </h1>
 
-<h4 align="center">Automatically post inspirational quotes to slack</h4>
+<h4 align="center">Automatically post inspirational quotes to 
+<a href="https://slack.com">Slack</a>
+</h4>
 
 <p align="center">
   <a>
@@ -22,11 +24,23 @@
   <a href="#license">License</a>
 </p>
 
+<h1 align="center">
+  <img src="./src/assets/banner.png">
+</h1>
+
 ## Key Features
-Post a random greeting and inspirational quote to slack each morning.
+
+Automates your morning greeting by posting one for you. Easily extendable.
+
 ## Installation
+
+- Clone this repo.
+- Make any changes you need to the [emojis](src/emojis.ts), [quotes](src/quotes.ts) or [salutations](src/salutations.ts) as required.
+
 ## Usage
+
 ## Contributing
+
 ## License
 
 [GPL v3](https://choosealicense.com/licenses/gpl-3.0)
