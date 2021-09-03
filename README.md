@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  🌞Good Morning - WIP
+  🌞Good Morning
 </h1>
 
 <h4 align="center">Automatically post inspirational quotes to 
@@ -38,9 +38,21 @@ Automates your morning greeting by posting one for you. Easily extendable.
 - Clone this repo.
 - Make any changes you need to the [emojis](src/emojis.ts), [quotes](src/quotes.ts) or [salutations](src/salutations.ts) as required.
 
+Under `settings > secrets`, define the following
+
+- `CHANNEL_ID_DEV` : the Slack channel that a message will be posted to by the pipeline on push
+- `CHANNEL_ID_PROD`: the Slack channel that you daily messages will be posted to each morning
+- `USER_TOKEN`: you Slack user token
+
 ## Usage
 
+To modify the automatic shedule, modify [schedule.js.yml](.github/workflows/schedule.js.yml)
+
 ## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
 
 ## License
 
