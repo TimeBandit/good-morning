@@ -24,7 +24,7 @@
   <a href="#license">License</a>
 </p>
 
-<h1 align="center">
+<h1 align="center" style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
   <img src="./src/assets/banner.png">
 </h1>
 
