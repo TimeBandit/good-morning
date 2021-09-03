@@ -40,13 +40,13 @@ Automates your morning greeting by posting one for you. Easily extendable.
 
 Under `settings > secrets`, define the following
 
-- `CHANNEL_ID_DEV` : the Slack channel that a message will be posted to by the pipeline on push
-- `CHANNEL_ID_PROD`: the Slack channel that you daily messages will be posted to each morning
-- `USER_TOKEN`: you Slack user token
+- `CHANNEL_ID_DEV` : the Slack channel that a message will be posted to by the pipeline 'on' push. This can me a test channel.
+- `CHANNEL_ID_PROD`: the Slack channel that your daily message will be posted to each morning.
+- `USER_TOKEN`: your Slack user token.
 
 ## Usage
 
-To modify the automatic shedule, modify [schedule.js.yml](.github/workflows/schedule.js.yml)
+To modify the automatic shedule, edit [schedule.js.yml](.github/workflows/schedule.js.yml)
 
 ## Contributing
 
