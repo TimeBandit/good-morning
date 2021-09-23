@@ -5,6 +5,10 @@ export interface Quote {
 
 const quotes: Quote[] = [
   {
+    text:"I never lose. Either I win, or learn",
+    author:"Nelson Mandela"
+  },
+  {
     text:"I never dream of success. I worked for it.",
     author:"Estee Lauder"
   },
