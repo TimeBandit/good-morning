@@ -631,10 +631,6 @@ const quotes: Quote[] = [
     author: "Voltaire",
   },
   { text: "Fortune favours the brave.", author: "Virgil" },
-  {
-    text: "I believe in one thing only, the power of human will.",
-    author: "Joseph Stalin",
-  },
   { text: "The best way out is always through.", author: "Robert Frost" },
   {
     text: "The mind unlearns with difficulty what it has long learned.",
