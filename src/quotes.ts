@@ -2176,7 +2176,7 @@ const quotes: Quote[] = [
   },
   {
     text:
-      "If you must tell me your opinions, tell me what you believe in. I have plenty of douts of my own.",
+      "If you must tell me your opinions, tell me what you believe in. I have plenty of doubts of my own.",
     author: "Johann Wolfgang von Goethe",
   },
   {
