@@ -5,6 +5,22 @@ export interface Quote {
 
 const quotes: Quote[] = [
   {
+    text:"These pains you feel are messengers. Listen to them.",
+    author:"Rumi"
+  },
+  {
+    text:"Whatever you have in your mind - forget it; Whatever you have in your hand - give it; Whatever is to be your fate - face it!",
+    author:"Abu Sa’id"
+  },
+  {
+    text:"Do not feel lonely, the entire universe is inside you.",
+    author:"Rumi"
+  },
+  {
+    text:"Sunshine all the time makes a desert",
+    author:"Arabic proverb"
+  },
+  {
     text:"I never lose. Either I win, or learn",
     author:"Nelson Mandela"
   },
