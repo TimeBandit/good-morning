@@ -5,6 +5,10 @@ export interface Quote {
 
 const quotes: Quote[] = [
   {
+    text:"Opportunities don’t happen. You create them.",
+    author:"C. Grosser"
+  },
+  {
     text:"These pains you feel are messengers. Listen to them.",
     author:"Rumi"
   },
