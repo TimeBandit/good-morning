@@ -21,7 +21,7 @@ const quotes: Quote[] = [
     author:"Rumi"
   },
   {
-    text:"Sunshine all the time makes a desert",
+    text:"Sunshine all the time makes a desert.",
     author:"Arabic proverb"
   },
   {
