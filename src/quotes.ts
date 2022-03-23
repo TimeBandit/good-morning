@@ -3,11 +3,7 @@ export interface Quote {
   author: string | null;
 }
 
-const quotes: Quote[] = [
-  {
-    text:"Never Mistake Motion for Action.",
-    author:"Ernest Hemingway"
-  },
+const quotes: Quote[] = [  
   {
     text:"Opportunities don’t happen. You create them.",
     author:"C. Grosser"
