@@ -2692,7 +2692,7 @@ const quotes: Quote[] = [
   {
     text:
       "When you don't know what you believe, everything becomes an argument. Everything is debatable. But when you stand for something, decisions are obvious.",
-    author: null,
+    author: "Jason Fried",
   },
   {
     text:
