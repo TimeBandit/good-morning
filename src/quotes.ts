@@ -5,6 +5,10 @@ export interface Quote {
 
 const quotes: Quote[] = [
   {
+    text:"If there is no wind, row.",
+    author:"Latin proverb"
+  },
+  {
     text:"No man ever steps in the same river twice, for it's not the same river and he's not the same man.",
     author:"Heraclitus"
   },
