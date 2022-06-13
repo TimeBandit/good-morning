@@ -47,6 +47,7 @@ Under `settings > secrets`, define the following
 ## Usage
 
 To modify the automatic shedule, edit [schedule.js.yml](.github/workflows/schedule.js.yml)
+.
 
 ## Contributing
 
