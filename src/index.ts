@@ -1,5 +1,6 @@
 // https://khalilstemmler.com/blogs/typescript/node-starter-project/
 // https://www.twilio.com/blog/working-with-environment-variables-in-node-js-html
+// .
 
 // Require the Node Slack SDK package (github.com/slackapi/node-slack-sdk)
 import { LogLevel, WebClient } from "@slack/web-api";
