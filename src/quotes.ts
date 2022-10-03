@@ -5,6 +5,10 @@ export interface Quote {
 
 const quotes: Quote[] = [
   {
+    text:"You miss 100% of the shots you don't take.",
+    author:"W. Gretzky"
+  },
+  {
     text:"If there is no wind, row.",
     author:"Latin proverb"
   },
