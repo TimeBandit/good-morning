@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  🌞Good Morning
+  🌞Good Morning.
 </h1>
 
 <h4 align="center">Automatically post inspirational quotes to 
