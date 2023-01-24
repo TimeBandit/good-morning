@@ -5,6 +5,10 @@ export interface Quote {
 
 const quotes: Quote[] = [
   {
+    text:"Remember that failure is an event, not a person.",
+    author:"Z. Ziglar"
+  },
+  {
     text:"You miss 100% of the shots you don't take.",
     author:"W. Gretzky"
   },
